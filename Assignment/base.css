@@ -16,3 +16,10 @@ body {
   font-family: Arial, sans-serif;
 }
 
+header,
+footer {
+  padding: 1rem;
+  background-color: var(--primary-color);
+  text-align: center;
+}
+
