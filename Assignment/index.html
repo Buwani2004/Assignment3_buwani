@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Everything about birds</title>
+    <link rel="stylesheet" href="base.css" />
+    <script></script>
+  </head>
+  <body>
+    <header>
+      <h1 id="greeting">Everything about birds</h1>
+      <button onclick="toggleTheme()">Toggle Theme</button>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#team">Our Team</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <main style="margin: 2%">
+      <form onsubmit="updateName(); return false;">
+        <input type="text" name="user_name" placeholder="Enter your name!" />
+        <button type="submit">Apply!</button>
+      </form>
+
+      <div style="padding: 2%">
+        <img
+          id="photo"
+          src="https://www.outgrabe.net/bird00.jpg"
+          alt="Pardalote "
+        />
+        <p id="photographer">Pardalote by fir002 (CC-by-NC)</p>
+        <button
+          onclick="changeImage('https://www.outgrabe.net/bird00.jpg', 'Pardalote by fir002 (CC-by-NC)')"
+        >
+          Pardalote
+        </button>
+        <button
+          onclick="changeImage('https://www.outgrabe.net/bird01.jpg', 'Purple swamp hen by Toby Hudson (CC-by-SA)')"
+        >
+          Purple Swamp
+        </button>
+        <button
+          onclick="changeImage('https://www.outgrabe.net/bird02.jpg', 'White-headed Wtilt by JJ Harrison (CC-by-SA)')"
+        >
+          White-headed Stilt
+        </button>
+        <button
+          onclick="changeImage('https://www.outgrabe.net/bird03.jpg', 'Inland Hornbill by Peter Jacobs (CC-by-SA)')"
+        >
+          Inland Thornbill
+        </button>
+        <button
+          onclick="changeImage('http://www.outgrabe.net/bird04.jpg', 'Rose Robin by JJ Harrison (CC-by-SA)')"
+        >
+          Rose Robin
+        </button>
+      </div>
+
+      <article>
+        <h2>World of Birds</h2>
+        <p>
+          Birds are very special animals that have particular characteristics
+          which are common amongst all of them. For instance, all of them have
+          feathers, wings and two legs. Similarly, all birds lay eggs and are
+          warm-blooded. They are very essential for our environment and exist in
+          different breeds.
+        </p>
+        <h3>Nightingale</h3>
+        <p>
+          Nightingales are slightly larger than Robins, with a robust,
+          broad-tailed, rather plain brown appearance. They are secretive birds
+          and extremely local in their distribution in the UK, while in much of
+          southern Europe they are common and more easily seen.
+        </p>
+        <p>
+          In the U.K., the bird is at the northern limit of its range which has
+          contracted in recent years, placing it on the red list for
+          conservation.[9] Despite local efforts to safeguard its favoured
+          coppice and scrub habitat, numbers fell by 53 percent between 1995 and
+          2008.[10] A survey conducted by the British Trust for Ornithology in
+          2012 and 2013 recorded some 3,300 territories, with most of these
+          clustered in a few counties in the southeast of England, notably Kent,
+          Essex, Suffolk, and East and West Sussex.[11]
+        </p>
+        <h3>Eagle</h3>
+        <p>
+          Eagle is the common name for the golden eagle, bald eagle, and other
+          birds of prey in the family Accipitridae. Eagles belong to several
+          groups of genera, some of which are closely related. True eagles
+          comprise the genus Aquila. Most of the 68 species of eagles are from
+          Eurasia and Africa
+        </p>
+        <p>
+          The beak is typically heavier than that of most other birds of prey.
+          Eagles' eyes are extremely powerful. It is estimated that the
+          wedge-tailed eagle has a visual acuity twice that of a typical
+          human.[2][3][4] This acuity enables eagles to spot potential prey from
+          a very long distance. This keen eyesight is primarily attributed to
+          their extremely large pupils which ensure minimal diffraction
+          (scattering) of the incoming light. Like most diurnal raptors, eagles
+          have little ability to see ultraviolet light.[5] The female of all
+          known species of eagles is larger than the male.[6][7]
+        </p>
+      </article>
+      <aside>
+        <h2>Related</h2>
+        <ul>
+          <li><a href="https://en.wikipedia.org/wiki/Bird">Birds</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Hawk">Hawk</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Eagle">Eagle</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Chicken">Chicken</a></li>
+          <li>
+            <a href="https://en.wikipedia.org/wiki/Indian_peafowl">Peacock</a>
+          </li>
+        </ul>
+      </aside>
+    </main>
+    <footer>
+      <p>©Copyright 2024 by Buwani. All rights reversed.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
